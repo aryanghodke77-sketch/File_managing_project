@@ -12,6 +12,9 @@ The code is deliberately kept beginner‑friendly: only the Python standard libr
 
 ## Project Structure
 
+## Project Structure
+
+```text
 file_integrity_monitor/
 ├── monitor.py              # CLI entry point & orchestrator
 ├── core/
@@ -24,6 +27,7 @@ file_integrity_monitor/
 │   └── baseline.json       # Persisted baseline (created by the tool)
 ├── reports/                # Timestamped JSON reports from check
 └── README.md
+```
 
 
 ## How It Works (Data Flow)

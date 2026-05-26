@@ -13,17 +13,17 @@ The code is deliberately kept beginner‑friendly: only the Python standard libr
 ## Project Structure
 
 file_integrity_monitor/
-├── monitor.py                # CLI entry point & orchestrator
+├── monitor.py              # CLI entry point & orchestrator
 ├── core/
-│   ├── scanner.py            # Recursively discovers files (relative paths)
-│   ├── hasher.py             # Computes SHA‑256 hashes (chunked reading)
-│   ├── storage.py            # Saves/loads the baseline JSON file
-│   ├── comparer.py           # Diff logic (added / modified / deleted / unchanged)
-│   └── reporter.py           # Formats and prints the diff, optional JSON report
+│   ├── scanner.py          # Recursively discovers files (relative paths)
+│   ├── hasher.py           # Computes SHA-256 hashes (chunked reading)
+│   ├── storage.py          # Saves/loads the baseline JSON file
+│   ├── comparer.py         # Diff logic (added / modified / deleted / unchanged)
+│   └── reporter.py         # Formats and prints the diff, optional JSON report
 ├── data/
-│   └── baseline.json         # Persisted baseline (created by the tool)
-├── reports/                  # Timestamped JSON reports from check 
-└── README.md                 
+│   └── baseline.json       # Persisted baseline (created by the tool)
+├── reports/                # Timestamped JSON reports from check
+└── README.md
 
 
 ## How It Works (Data Flow)

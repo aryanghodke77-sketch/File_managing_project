@@ -1,0 +1,14 @@
+{
+  "diff": {
+    "added": [],
+    "deleted": [],
+    "modified": [
+      "file1.txt"
+    ],
+    "unchanged": [
+      "sub\\file2.txt"
+    ]
+  },
+  "target": "C:\\Users\\Knowledge_seeker\\Downloads\\File_managing_project\\File_managing_project\\test_folder",
+  "timestamp": "20260526_042924"
+}

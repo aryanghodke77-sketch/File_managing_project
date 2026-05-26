@@ -57,7 +57,9 @@ file_integrity_monitor/
 # From the project root
 python monitor.py baseline path/to/your/folder
 # → creates a baseline.json and reports how many files were recorded
+```
 
+```bash
 python monitor.py check path/to/your/folder
 # → prints added/modified/deleted/unchanged counts and file lists
 #   also writes a timestamped JSON report under ./reports/
